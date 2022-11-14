@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --main-color:#028A0F;
+    --text-color:#fff;
+    --bg-color:#0b0a13;
+    --big-font:5rem;
+    --h2-font:2.25rem;
+    --p-font:0.9rem;
+}
+*::selection {
+    background: var(--main-color);
+    color: #fff;
+}
+body {
+    color: var(--text-color);
+    background: var(--bg-color);
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 170px;
+    background: var(--bg-color);
+}
+.logo{
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+.navbar{
+    display: flex;
+}
+.navbar a {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.navbar a:hover {
+    color: var(--main-color);
+    transition: .4s;
+}
+#menu-icon{
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+section{
+    padding: 70px 17%;
+}
+.home{
+    width: 100%;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+.home-img img{
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+}
+.home-text h1{
+    font-size: var(--big-font);
+    color: var(--main-color);
+}
+.home-text h2{
+    font-size: var(--h2-font);
+    margin: 1rem 0 2rem;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 0.5rem;
+}
+.btn:hover{
+    transform: scale(1.2) translateY(10px);
+    transition: .4s;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+    border-radius: 10px;
+}
+.about-text span{
+    color: var(--main-color);
+    font-weight: 600;
+}
+.about-text h2{
+    font-size: var(--h2-font);
+}
+.about-text p{
+    margin: 0.8rem 0 1.8rem;
+    line-height: 1.7;
+}
+.heading{
+    text-align: center;
+}
+.heading span{
+    color: var(--main-color);
+    font-weight: 600;
+}
+.heading h2{
+    font-size: var(--h2-font);
+}
+.menu-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap: 1.7rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.box{
+    height: 340px;
+    width: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background: gray;
+    transition: all 0.8s;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.7) 75%, #000 100%), url(https://media.discordapp.net/attachments/1004349241096937492/1018876706284642354/Juice_WRLD-GettyImages-1156284562.webp?width=559&height=559) center center no-repeat;
+    background-size: cover;
+}
+.box1:hover{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+.box2{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.7) 75%, #000 100%), url(https://media.discordapp.net/attachments/1004349241096937492/1018879962800996362/artworks-tif5wKEn6TOKqMZE-baBIsA-t500x500.jpg) center center no-repeat;
+    background-size: cover;
+}
+.box2:hover{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+
+.box3{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.7) 75%, #000 100%), url(https://media.discordapp.net/attachments/1004349241096937492/1018890356990935142/joji-1-scaled.jpg?width=839&height=559) center center no-repeat;
+    background-size: cover;
+}
+.box3:hover{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+.box4{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.7) 75%, #000 100%), url(https://media.discordapp.net/attachments/1004349241096937492/1018912621006684222/channels4_profile.jpg?width=559&height=559) center center no-repeat;
+    background-size: cover;
+}
+.box4:hover{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+.box5{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.7) 75%, #000 100%), url(https://media.discordapp.net/attachments/1004349241096937492/1018911267324432465/playboi-carti-matthew-williams-givenchy-teaser-00.jpg?width=994&height=559) center center no-repeat;
+    background-size: cover;
+}
+.box5:hover{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+
+.box6{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.7) 75%, #000 100%), url(https://media.discordapp.net/attachments/1004349241096937492/1019230311235719280/aHR0cHM6Ly9zLmlzYW5vb2suY29tL2pvLzAvdWQvNDgyLzI0MTEwMzEvbWV5b3UtcHJheTExLmpwZw.jpg?width=468&height=558) center center no-repeat;
+    background-size: cover;
+}
+.box6:hover{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+.box7{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.7) 75%, #000 100%), url(https://media.discordapp.net/attachments/1004349241096937492/1019268108910858380/Travis_Scott_-_Openair_Frauenfeld_2019_08.jpg?width=478&height=558) center center no-repeat;
+    background-size: cover;
+}
+.box7:hover{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+.in{
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.bottom{
+    text-align: center;
+    color: #adb5bd;
+    padding-top: 150px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.border{
+    border-radius: 25px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Joji</title>
+    <link rel="stylesheet" type="text/css"  href="joji.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="about">
+        <i class="fa fa-home" aria-hidden="true"></i>
+        <a href="index.html">Home</a>
+    </div>
+
+    <section>
+        <img src="https://media.discordapp.net/attachments/1004349241096937492/1018881767656128543/200w.gif" id="first">
+        <img src="https://media.discordapp.net/attachments/1004349241096937492/1018883625544073327/joji_sanctuary-removebg-preview.png" id="last">
+        <h1 id="text">Joji</h1>
+    </section>
+    <div class="ab-text">
+        <div class="heading">
+            <h2>joji</h2>
+            <p>George Kusunoki Miller (born 18 September 1992), known professionally as Joji and formerly as Filthy Frank and Pink Guy, is a Japanese singer, songwriter, rapper, comedian, and former YouTuber. Miller's music has been described as a mix between R&B, lo-fi, and trip hop.
+
+                Miller began his YouTube career in 2011 shortly after moving to the United States, gaining recognition for portraying oddball characters on the satire channels TVFilthyFrank, TooDamnFilthy, and DizastaMusic. The channels, which featured comedy hip hop, rants, extreme challenges, and ukulele and dance performances, are noted for their shock humor and prolific virality. 
+                
+                Miller's videos helped popularize the Harlem Shake, that contributed to the commercial success of Baauer's song of the same name which led to the production of memes and collaborations with YouTubers. As Pink Guy, Miller released two comedy studio albums and an extended play between 2014 and 2017.
+                
+                In late 2017, Miller retired as a YouTuber to pursue a music career under the name Joji. His debut album, Ballads 1, was released in 2018 and featured the single "Slow Dancing in the Dark". His second album, Nectar (2020), contained the singles "Sanctuary" and "Run". In 2022, he released the US Billboard Hot 100 top-ten single "Glimpse of Us", his highest-charting song.</p>
+        </div>
+        
+        <div class="heading">
+            <h2>My Favorite song</h2>
+        </div>
+        <div class="container">  
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/624433812&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/739343044&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        </div>
+        
+        <br>
+        <br>
+
+            <div class="heading">
+            <h2>Albums</h2>
+        </div>
+
+        <div class="container">
+            <div class="box box1">
+                <div class="in">
+                    <a target="_blank" style="text-decoration: none; color: white" href="https://music.youtube.com/playlist?list=OLAK5uy_lKJlIAGDKX9-lrTezHT815rAxcYYoOZZs"><p>Pink Season</p></a>
+                </div>
+            </div>
+
+            <div class="box box2">
+                <div class="in">
+                    <a target="_blank" style="text-decoration: none; color: white" href="https://music.youtube.com/playlist?list=OLAK5uy_lYvF0L7hhnm22HTrlOa2bvw5bM7RaP1RU"><p>Pink Season: The Prophecy</p></a>
+                </div>
+            </div>
+            
+            <div class="box box3">
+                <div class="in">
+                    <a target="_blank" style="text-decoration: none; color: white;" href="https://music.youtube.com/playlist?list=OLAK5uy_mAXFW3rvZTMbYUi0o-pxv3ihN_KNM_VXI" ><p>In Tongues</p></a>
+                </div>
+            </div>
+
+            <div class="box box4">
+                <div class="in">
+                    <a target="_blank" style="text-decoration: none; color: white;" href="https://music.youtube.com/playlist?list=OLAK5uy_mXDtLHBwxu1EqdPL8O_4na-tI_m4w3yrQ" ><p>Ballads 1</p></a>
+                </div>
+            </div>
+
+            <div class="box box5">
+                <div class="in">
+                    <a target="_blank" style="text-decoration: none; color: white;" href="https://music.youtube.com/playlist?list=OLAK5uy_nvELB-nk0pksDsADpeZHbD-oZ0hgWaHXk" ><p>Nectar</p></a>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <div class="bottom">
+            <p>Music by Joji ℗ 2019 88rising Records/Warner Records Inc.</p>
+            <p>Made by Dornathorn Thuamjorn</p>
+
+        </div>
+
+
+    </div>
+
+
+    <script>
+        let first = document.getElementById("first");
+        let last = document.getElementById("last");
+        let text = document.getElementById("text");
+
+        window.addEventListener('scroll', function(){
+            var value = window.scrollY;
+            first.style.top = value * 0.7 + 'px';
+            last.style.bottom = value * 0.5 + 'px';
+            text.style.top = value * 1 + 'px';
+        })
+    </script>
+    </body>
+</html>

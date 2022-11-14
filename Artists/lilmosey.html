@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lil mosey</title>
+    <link rel="stylesheet" type="text/css"  href="lilmosey.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="about">
+        <i class="fa fa-home" aria-hidden="true"></i>
+        <a href="index.html">Home</a>
+    </div>
+
+    <section>
+        <img src="https://media.discordapp.net/attachments/1004349241096937492/1018491917018865726/lil-mosey-rapper.gif?width=559&height=559" id="first">
+        <img src="https://media.discordapp.net/attachments/1004349241096937492/1018490375645700096/lil-mosey.png?width=839&height=559" id="last">
+        <h1 id="text">Lil mosey</h1>
+    </section>
+    <div class="ab-text">
+        <div class="heading">
+            <h2>Lil mosey</h2>
+            <p>Lathan Moses Stanley Echols (born January 25, 2002), known professionally as Lil Mosey, is an American rapper. He rose to fame in late 2017 with the release of his single "Pull Up". 
+                
+                Mosey's debut studio album Northsbest (2018) included his first Billboard Hot 100 charting single, "Noticed". His second studio album, Certified Hitmaker (2019), peaked at number 12 on the US Billboard 200. In 2020,
+                
+                Mosey released the highest-charting single of his career, "Blueberry Faygo", which peaked at number 8 on the Billboard Hot 100.</p>
+        </div>
+        
+        <div class="heading">
+            <h2>My Favorite song</h2>
+        </div>
+        <div class="container">  
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/762501346&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/509543931&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        </div>
+        
+        <br>
+        <br>
+
+            <div class="heading">
+            <h2>Albums</h2>
+        </div>
+
+        <div class="container">
+            <div class="box box1">
+                <div class="in">
+                    <a target="_blank" style="text-decoration: none; color: white" href="https://music.youtube.com/playlist?list=OLAK5uy_lrS5jIB71IXNXvjNFZ69g6vNYUV_lzrr8"><p>Lil moesy</p></a>
+                </div>
+            </div>
+
+            <div class="box box2">
+                <div class="in">
+                    <a target="_blank" style="text-decoration: none; color: white" href="https://music.youtube.com/playlist?list=OLAK5uy_m6leWjX1n_pvs8QFcpz_nmeLulvODqenM"><p>Northsbest</p></a>
+                </div>
+            </div>
+            
+            <div class="box box3">
+                <div class="in">
+                    <a target="_blank" style="text-decoration: none; color: white;" href="https://music.youtube.com/playlist?list=OLAK5uy_l9HfS5hIF9S5H05ToQcL6XX4nwwzq6BA0" ><p>Certified Hitmaker</p></a>
+                </div>
+            </div>
+
+            <div class="box box4">
+                <div class="in">
+                    <a target="_blank" style="text-decoration: none; color: white;" href="https://music.youtube.com/watch?v=vH1oEi7PWcU" ><p>Universal</p></a>
+                </div>
+            </div>
+
+            
+        </div>
+
+        <div class="bottom">
+            <p>Music by lil moesy ℗ 2018 Interscope Records</p>
+            <p>Made by Dornathorn Thuamjorn</p>
+
+        </div>
+
+
+    </div>
+
+
+    <script>
+        let first = document.getElementById("first");
+        let last = document.getElementById("last");
+        let text = document.getElementById("text");
+
+        window.addEventListener('scroll', function(){
+            var value = window.scrollY;
+            first.style.top = value * 0.7 + 'px';
+            last.style.bottom = value * 0.5 + 'px';
+            text.style.top = value * 1 + 'px';
+        })
+    </script>
+    </body>
+</html>

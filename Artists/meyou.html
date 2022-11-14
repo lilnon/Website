@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Meyou </title>
+    <link rel="stylesheet" type="text/css"  href="meyou.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="about">
+        <i class="fa fa-home" aria-hidden="true"></i>
+        <a href="index.html">Home</a>
+    </div>
+
+    <section>
+        <img src="https://media.discordapp.net/attachments/1004349241096937492/1019225743642857552/mew-meyou.gif" id="first">
+        <img src="https://media.discordapp.net/attachments/1004349241096937492/1019225727926816788/maxresdefault__1_-removebg-preview.png" id="last">
+        <h1 id="text">Meyou</h1>
+    </section>
+    <div class="ab-text">
+        <div class="heading">
+            <h2>Meyou</h2>
+            <p>ชิษณุชา ตันติเมธ ชื่อเล่น มิว (เป็นที่รู้จักในชื่อ: มิว MBO) เป็นนักร้อง นักแสดงชายชาวไทย เป็นที่รู้จักจากการชนะการประกวดโครงการ "MBO THE AUDITION หน้าใหม่ พร้อมเกิด" 
+                ของค่าย MBO ในเครือจีเอ็มเอ็ม แกรมมี่ และได้มีซิงเกิ้ลแรกเป็นของตัวเองในชื่อเพลง "ไม่เคยคิดแค่เพื่อน (I'm not your friend)" ในปี พ.ศ. 2560</p>
+        </div>
+        
+        <div class="heading">
+            <h2>My Favorite song</h2>
+        </div>
+        <div class="container">  
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/592986039&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/396953859&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        </div>
+        
+        <br>
+        <br>
+
+            <div class="heading">
+            <h2>Albums</h2>
+        </div>
+
+        <div class="container">
+            <div class="box box1">
+                <div class="in">
+                    <a target="_blank" style="text-decoration: none; color: white" href="https://music.youtube.com/playlist?list=OLAK5uy_kHkaA_5MdI2Rb0waxcJ05eQTmATMpgxHY"><p>WEDNESDAY CHILD</p></a>
+                </div>
+            </div>
+
+                <div class="box box2">
+                    <div class="in">
+                        <a target="_blank" style="text-decoration: none; color: white" href="https://music.youtube.com/playlist?list=OLAK5uy_nr1czw4VeNrRbXek0crilJFMSof8zJemI"><p>Phawana</p></a>
+                </div>
+            </div>
+            </div>
+
+        <div class="bottom">
+            <p>Music by Meyou ℗ 2022 GMM GRAMMY PCL</p>
+            <p>Made by Dornathorn Thuamjorn</p>
+
+        </div>
+
+
+    </div>
+
+
+    <script>
+        let first = document.getElementById("first");
+        let last = document.getElementById("last");
+        let text = document.getElementById("text");
+
+        window.addEventListener('scroll', function(){
+            var value = window.scrollY;
+            first.style.top = value * 0.7 + 'px';
+            last.style.bottom = value * 0.5 + 'px';
+            text.style.top = value * 1 + 'px';
+        })
+    </script>
+    </body>
+</html>
